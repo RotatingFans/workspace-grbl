@@ -272,7 +272,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             
             chilipeppr.load(
                 "#com-chilipeppr-ws-autolevel",
-                "https://raw.githubusercontent.com/RotatingFans/widget-grbl-autolevel/master/auto-generated-widget.html",
+                "raw.githubusercontent.com/chilipeppr-grbl/widget-grbl-autolevel/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-widget-autolevel"], function(autolevel) {
                         autolevel.init();
